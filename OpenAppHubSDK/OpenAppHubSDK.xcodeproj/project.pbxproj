@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		77EA72212C6E210300FA77B0 /* OpenAppHubSDK-aggregat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 77EA72222C6E210300FA77B0 /* Build configuration list for PBXAggregateTarget "OpenAppHubSDK-aggregat" */;
+			buildPhases = (
+				77EA72252C6E21A400FA77B0 /* ShellScript */,
+			);
+			dependencies = (
+				77EA72272C6E21FE00FA77B0 /* PBXTargetDependency */,
+			);
+			name = "OpenAppHubSDK-aggregat";
+			productName = "OpenAppHubSDK-aggregat";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		77EA71E62C6E17BE00FA77B0 /* OpenAppHubSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EA71E52C6E17BE00FA77B0 /* OpenAppHubSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77EA72162C6E1AB400FA77B0 /* IPAddressConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA72152C6E1AB400FA77B0 /* IPAddressConfig.m */; };
+		77EA72192C6E1B9D00FA77B0 /* IPAddressHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA72182C6E1B9D00FA77B0 /* IPAddressHelper.m */; };
+		77EA721C2C6E206B00FA77B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EA721B2C6E206B00FA77B0 /* SystemConfiguration.framework */; };
+		77EA72282C6E232500FA77B0 /* IPAddressHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EA72172C6E1B8B00FA77B0 /* IPAddressHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77EA72262C6E21FE00FA77B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77EA71D92C6E17BE00FA77B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77EA71E12C6E17BE00FA77B0;
+			remoteInfo = OpenAppHubSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77EA71E22C6E17BE00FA77B0 /* OpenAppHubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenAppHubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77EA71E52C6E17BE00FA77B0 /* OpenAppHubSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenAppHubSDK.h; sourceTree = "<group>"; };
+		77EA72142C6E1A9300FA77B0 /* IPAddressConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressConfig.h; sourceTree = "<group>"; };
+		77EA72152C6E1AB400FA77B0 /* IPAddressConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAddressConfig.m; sourceTree = "<group>"; };
+		77EA72172C6E1B8B00FA77B0 /* IPAddressHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAddressHelper.h; sourceTree = "<group>"; };
+		77EA72182C6E1B9D00FA77B0 /* IPAddressHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAddressHelper.m; sourceTree = "<group>"; };
+		77EA721B2C6E206B00FA77B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77EA71DF2C6E17BE00FA77B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EA721C2C6E206B00FA77B0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77EA71D82C6E17BE00FA77B0 = {
+			isa = PBXGroup;
+			children = (
+				77EA71E42C6E17BE00FA77B0 /* OpenAppHubSDK */,
+				77EA71E32C6E17BE00FA77B0 /* Products */,
+				77EA721A2C6E206B00FA77B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77EA71E32C6E17BE00FA77B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77EA71E22C6E17BE00FA77B0 /* OpenAppHubSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77EA71E42C6E17BE00FA77B0 /* OpenAppHubSDK */ = {
+			isa = PBXGroup;
+			children = (
+				77EA72132C6E1A6B00FA77B0 /* Network */,
+				77EA71E52C6E17BE00FA77B0 /* OpenAppHubSDK.h */,
+			);
+			path = OpenAppHubSDK;
+			sourceTree = "<group>";
+		};
+		77EA72132C6E1A6B00FA77B0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				77EA72142C6E1A9300FA77B0 /* IPAddressConfig.h */,
+				77EA72152C6E1AB400FA77B0 /* IPAddressConfig.m */,
+				77EA72172C6E1B8B00FA77B0 /* IPAddressHelper.h */,
+				77EA72182C6E1B9D00FA77B0 /* IPAddressHelper.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		77EA721A2C6E206B00FA77B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77EA721B2C6E206B00FA77B0 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77EA71DD2C6E17BE00FA77B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EA72282C6E232500FA77B0 /* IPAddressHelper.h in Headers */,
+				77EA71E62C6E17BE00FA77B0 /* OpenAppHubSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		77EA71E12C6E17BE00FA77B0 /* OpenAppHubSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77EA71E92C6E17BE00FA77B0 /* Build configuration list for PBXNativeTarget "OpenAppHubSDK" */;
+			buildPhases = (
+				77EA71DD2C6E17BE00FA77B0 /* Headers */,
+				77EA71DE2C6E17BE00FA77B0 /* Sources */,
+				77EA71DF2C6E17BE00FA77B0 /* Frameworks */,
+				77EA71E02C6E17BE00FA77B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenAppHubSDK;
+			productName = OpenAppHubSDK;
+			productReference = 77EA71E22C6E17BE00FA77B0 /* OpenAppHubSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77EA71D92C6E17BE00FA77B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					77EA71E12C6E17BE00FA77B0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					77EA72212C6E210300FA77B0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 77EA71DC2C6E17BE00FA77B0 /* Build configuration list for PBXProject "OpenAppHubSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77EA71D82C6E17BE00FA77B0;
+			productRefGroup = 77EA71E32C6E17BE00FA77B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77EA71E12C6E17BE00FA77B0 /* OpenAppHubSDK */,
+				77EA72212C6E210300FA77B0 /* OpenAppHubSDK-aggregat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77EA71E02C6E17BE00FA77B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77EA72252C6E21A400FA77B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\n#要build的target名\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}/\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\nlipo \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" -remove arm64 -output \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77EA71DE2C6E17BE00FA77B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EA72162C6E1AB400FA77B0 /* IPAddressConfig.m in Sources */,
+				77EA72192C6E1B9D00FA77B0 /* IPAddressHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77EA72272C6E21FE00FA77B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77EA71E12C6E17BE00FA77B0 /* OpenAppHubSDK */;
+			targetProxy = 77EA72262C6E21FE00FA77B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77EA71E72C6E17BE00FA77B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77EA71E82C6E17BE00FA77B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77EA71EA2C6E17BE00FA77B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WNH2W3GBQN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapphub.OpenAppHubSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77EA71EB2C6E17BE00FA77B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WNH2W3GBQN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapphub.OpenAppHubSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77EA72232C6E210300FA77B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNH2W3GBQN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77EA72242C6E210300FA77B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNH2W3GBQN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77EA71DC2C6E17BE00FA77B0 /* Build configuration list for PBXProject "OpenAppHubSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EA71E72C6E17BE00FA77B0 /* Debug */,
+				77EA71E82C6E17BE00FA77B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EA71E92C6E17BE00FA77B0 /* Build configuration list for PBXNativeTarget "OpenAppHubSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EA71EA2C6E17BE00FA77B0 /* Debug */,
+				77EA71EB2C6E17BE00FA77B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77EA72222C6E210300FA77B0 /* Build configuration list for PBXAggregateTarget "OpenAppHubSDK-aggregat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EA72232C6E210300FA77B0 /* Debug */,
+				77EA72242C6E210300FA77B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77EA71D92C6E17BE00FA77B0 /* Project object */;
+}
