@@ -65,18 +65,18 @@
 		77EA71F72C6E182700FA77B0 /* OpenAppHubSDK-test-app */ = {
 			isa = PBXGroup;
 			children = (
-				77EA722A2C6E320800FA77B0 /* OpenAppHubSDK.framework */,
-				77EA722C2C6E321300FA77B0 /* SystemConfiguration.framework */,
 				77EA71F82C6E182700FA77B0 /* AppDelegate.h */,
 				77EA71F92C6E182700FA77B0 /* AppDelegate.m */,
+				77EA72042C6E182800FA77B0 /* Assets.xcassets */,
+				77EA72092C6E182800FA77B0 /* Info.plist */,
+				77EA72062C6E182800FA77B0 /* LaunchScreen.storyboard */,
+				77EA72012C6E182700FA77B0 /* Main.storyboard */,
+				77EA722A2C6E320800FA77B0 /* OpenAppHubSDK.framework */,
 				77EA71FB2C6E182700FA77B0 /* SceneDelegate.h */,
 				77EA71FC2C6E182700FA77B0 /* SceneDelegate.m */,
+				77EA722C2C6E321300FA77B0 /* SystemConfiguration.framework */,
 				77EA71FE2C6E182700FA77B0 /* ViewController.h */,
 				77EA71FF2C6E182700FA77B0 /* ViewController.m */,
-				77EA72012C6E182700FA77B0 /* Main.storyboard */,
-				77EA72042C6E182800FA77B0 /* Assets.xcassets */,
-				77EA72062C6E182800FA77B0 /* LaunchScreen.storyboard */,
-				77EA72092C6E182800FA77B0 /* Info.plist */,
 				77EA720A2C6E182800FA77B0 /* main.m */,
 			);
 			path = "OpenAppHubSDK-test-app";
@@ -168,6 +168,7 @@
 				77EA72022C6E182700FA77B0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		77EA72062C6E182800FA77B0 /* LaunchScreen.storyboard */ = {
@@ -176,6 +177,7 @@
 				77EA72072C6E182800FA77B0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

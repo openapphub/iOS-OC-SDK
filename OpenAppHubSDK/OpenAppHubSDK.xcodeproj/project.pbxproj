@@ -64,9 +64,9 @@
 		77EA71D82C6E17BE00FA77B0 = {
 			isa = PBXGroup;
 			children = (
+				77EA721A2C6E206B00FA77B0 /* Frameworks */,
 				77EA71E42C6E17BE00FA77B0 /* OpenAppHubSDK */,
 				77EA71E32C6E17BE00FA77B0 /* Products */,
-				77EA721A2C6E206B00FA77B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +96,7 @@
 				77EA72182C6E1B9D00FA77B0 /* IPAddressHelper.m */,
 			);
 			name = Network;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		77EA721A2C6E206B00FA77B0 /* Frameworks */ = {
